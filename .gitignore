@@ -1,11 +1,8 @@
-
-
-
 # Ignore all HTML files
 *.html
 
-# Keep this one HTML file
-!index.html
+# Keep only this file
+!index1.html
 
 # Ignore images
 *.jpg
