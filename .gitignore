@@ -1,0 +1,20 @@
+
+
+
+# Ignore all HTML files
+*.html
+
+# Keep this one HTML file
+!index.html
+
+# Ignore images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+
+# Ignore folders
+index1_files/
+web/
