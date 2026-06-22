@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+    text-align: center;
+    background-color: yellow;
+
+}
+
+body {
+    background-color: pink;
+    color: white;
+
+}
+
+button {
+    background-color: green;
+    color: aqua;
+}

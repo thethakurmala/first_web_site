@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>style</title>
+        <style>
+            #container
+            {
+            margin:5px;
+            padding:5px;
+            background:aqua;
+            }
+            #container p
+            {
+            background:pink;
+            color:green;
+            }
+         </style>
+    </head>
+    <body>
+        <div id="container">
+            <p>This is Mala</p>
+            <p>This is static content</p>
+        </div>
+        <script>
+            var content = prompt("Enter the content to add");
+            var container=document.getElementById("container");
+            var item=document.createElement("p");
+            var text=document.createTextNode(content);
+            item.append(text);
+            container.appendChild(item);
+            item.style.color="red";
+            item.style.background="yellow";
+            item.style.fontSize="24px";
+        </script>
+    </body>
+    </html>
